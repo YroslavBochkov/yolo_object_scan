@@ -1,5 +1,10 @@
 # YOLO Object Scan
 
+[![Python](https://img.shields.io/badge/Python-3.9%2B-blue?logo=python)](https://www.python.org/)
+[![OpenCV](https://img.shields.io/badge/OpenCV-4.x-green?logo=opencv)](https://opencv.org/)
+[![Ultralytics YOLO](https://img.shields.io/badge/Ultralytics-YOLOv8-orange?logo=yolo)](https://github.com/ultralytics/ultralytics)
+[![NumPy](https://img.shields.io/badge/NumPy-1.26.x-blueviolet?logo=numpy)](https://numpy.org/)
+
 Легковесное приложение для обнаружения и подсчёта объектов на изображении или видеопотоке с помощью нейросети YOLOv8.
 
 ## Возможности
@@ -42,3 +47,6 @@ for box in results[0].boxes:
         cv2.rectangle(img, (x1, y1), (x2, y2), (0,255,0), 2)
         cv2.putText(img, label, (x1, y1-10), cv2.FONT_HERSHEY_SIMPLEX, 0.9, (0,255,0), 2)
 cv2.imwrite('output.jpg', img)
+
+
+**Автор:** Ярослав Бочков
