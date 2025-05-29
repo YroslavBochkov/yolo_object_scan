@@ -50,3 +50,7 @@ cv2.imwrite('output.jpg', img)
 ```
 
 **Автор:** Ярослав Бочков
+
+## Лицензия
+
+MIT License
